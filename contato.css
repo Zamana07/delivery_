@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: rgb(158, 30, 30);
+}
+
+.conteiner{
+    display: flex;
+    display: inline-block;
+
+}
+
+#header{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu{
+    height: 35px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+
+#logo{
+    height: 60px;
+    padding-left: 250px;
+    padding-top: 8px;
+}
+
+#busca{
+    height: 40px;
+    width: 400px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    margin-right: 170px;
+}
+
+#entrar{
+    height: 40px;
+    padding-right: 50px;
+}
+
+#cadastrar{
+    height: 40px;
+    padding-right: 20px;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+#imgsombra{
+    display: flex;
+    background-image: url(Rectangle\ 20.png);
+    background-repeat: no-repeat;
+    align-items: end;
+    height: 400px;
+    width: 700px;
+    margin-top: 50px;
+    border-radius: 30px;
+    margin-left: 90px;
+}
+
+
+#nome{
+    margin-bottom: 300px;
+    margin-left: 140px;
+    font-size: 20px;
+    color: white;
+}
+
+#inputname{
+    margin-bottom: 300px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+#sobrenome{
+    margin-bottom: 250px;
+    margin-left: -398px;
+    font-size: 20px;
+    color: white;
+}
+
+#inputemail{
+    margin-bottom: 250px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+#Telefone{
+    margin-bottom: 205px;
+    margin-left: -363px;
+    font-size: 20px;
+    color: white;
+}
+
+#inputusuario{
+    margin-bottom: 205px;
+    margin-left: 37px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+#Endereço{
+    margin-bottom: 160px;
+    margin-left: -357px;
+    font-size: 20px;
+    color: white;
+}
+
+#inputsenha{
+    margin-bottom: 160px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+#imgsombra2{
+    display: flex;
+    background-image: url(Rectangle\ 16.png);
+    display: in;
+    background-repeat: no-repeat;
+    align-items: end;
+    height: 200px;
+    width: 500px;
+    margin-top: -50px;
+    border-radius: 20px;
+    margin-left: 700px;
+}
+
+#Observação{
+    margin-bottom: 135px;
+    margin-left: 100px;
+    font-size: 20px;
+    color: white;
+}
+
+#Observaçãotxt{
+    margin-left: 60px;
+    margin-bottom: 125px;
+}
+
+#pedido2{
+    margin-left: 870px;
+    margin-top: -50px;
+}
+
+#rodape{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    margin-top: 144px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+
+#rodapefontnome{
+    font-size: 20px;
+    color: white;
+    margin-left: 650px;
+}
+
+#rodapefontturma{
+    font-size: 20px;
+    color: white;
+    margin-left: 685px;
+    margin-top: 25px;
+}
+
+#rodapefontnum{
+    font-size: 20px;
+    color: white;
+    margin-left: 390px;
+    
+}
+
+#rodapefontemail{
+    font-size: 20px;
+    color: white;
+    margin-left: 335px;
+    margin-top: 25px;
+    
+}
+
+

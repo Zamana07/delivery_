@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: rgb(158, 30, 30);
+}
+
+.conteiner{
+    display: flex;
+    display: inline-block;
+
+}
+
+#header{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu{
+    height: 35px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+
+#logo{
+    height: 60px;
+    padding-left: 250px;
+    padding-top: 8px;
+}
+
+#busca{
+    height: 40px;
+    width: 400px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    margin-right: 170px;
+}
+
+#entrar{
+    height: 40px;
+    padding-right: 50px;
+}
+
+#cadastrar{
+    height: 40px;
+    padding-right: 20px;
+}
+
+#titulo{
+    margin-top: 50px;
+    margin-left: 300px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#main1{
+    display: flex;
+    justify-content: center;
+    
+}
+#main2{
+    display: flex;
+    justify-content: center;
+    
+}
+#main3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#pizzas{
+    display: flex;
+   
+}
+
+#pizza1{
+    margin-top: 150px;
+    margin-right: 230px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+#imgsombra3{
+    display: flex;
+    background-image: url(Rectangle\ 20.png);
+    background-repeat: no-repeat;
+    align-items: end;
+    height: 400px;
+    width: 500px;
+    margin-top: 150px;
+    border-radius: 30px;
+    margin-left: 90px;
+}
+
+#quemsomos{
+    font-size: 18px;
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+    margin-bottom: 165px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+#rodape{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    margin-top: 148px;
+    display: flex;
+    
+}
+
+#rodapefontnome{
+    font-size: 20px;
+    color: white;
+    margin-left: 650px;
+}
+
+#rodapefontturma{
+    font-size: 20px;
+    color: white;
+    margin-left: 685px;
+    margin-top: 25px;
+}
+
+#rodapefontnum{
+    font-size: 20px;
+    color: white;
+    margin-left: 390px;
+    
+}
+
+#rodapefontemail{
+    font-size: 20px;
+    color: white;
+    margin-left: 335px;
+    margin-top: 25px;
+    
+}
+
+
